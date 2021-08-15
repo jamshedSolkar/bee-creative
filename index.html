@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="IE=Edge">
+    <meta name="description" content="">
+    <meta name="keywords" content="" />
+    <meta name="author" content="Jamshed Solkar">
+    <meta name="viewport"
+        content="minimum-scale=1.0, initial-scale=1, width=device-width, maximum-scale=1, user-scalable=no"
+        viewport-fit=cover />
+    <title>Team Picker 2020</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-size: 14px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        #pageLinkContainer {
+            background: white;
+        }
+
+        .pageLink {
+            text-align: left;
+            padding-left: 10px;
+            padding-top: 10px;
+        }
+
+        .pageLink a {
+            color: #000;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div id="pageLinkContainer">
+        </div>
+    </div>
+
+    <script>
+        var staticPages = [
+            "static-html/home.html",
+            "static-html/portfolio.html"
+        ]
+
+        var target = document.getElementById('pageLinkContainer');
+        let template = '<div class="pageLink"><a href="./{{page}}" target="_blank">{{page}}</a></div>';
+        let links = '';
+        for (var i = 0; i < staticPages.length; i++) {
+            links += template.replace(/{{page}}/g, staticPages[i]);
+        }
+
+        target.innerHTML = links;
+    </script>
+</body>
+
+</html>
