@@ -1,0 +1,62 @@
+//Colors
+$transparent: transparent;
+$googlePlus:#dc4e41;
+$facebook:#3b5998;
+$twitter:#55acee;
+$whatsapp:#43d854;
+$instagram:#125688;
+$dribbble:#1769ff;
+$linkedin:#0077b5;
+$spotify:#1DB954;
+$tumblr:#00405d;
+$youtube:#cd201f;
+$skype:#00aff0;
+$pinterest:#bd081c;
+
+$default: #19191b;
+$black: #000;
+$white: #fff;
+$gray: #2D2D2D;
+$red: red;
+$green: green;
+$disable: #E0E0E0;
+
+$client-primary-color: #ffca08;
+$client-secondary-color: #E2BE60;
+
+//Media Breakpoints
+// $media-mobile-min: 360px;
+// $media-mobile-sm-max: 480px;
+// $media-mobile-max: 576px; //Mobiles (Landscape)
+// $media-tablet-min: 768px;
+// $media-tablet-small-max: 812px; //for iphone10, vivov11 pro and one plus 6/6T @media screen and (min-width: 375px) and (max-width: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)
+// $media-tablet-max: 992px; //Tablets, Ipads
+// $media-desktop-min: 1025px;
+// $media-desktop-max: 1280px; //Laptops, Desktops
+// $media-lg-desktop-min: 1281px;
+// $media-laptop-max: 1366px;
+// $media-ex-large-max: 1441px;
+// $media-ex-large-hd-max: 1601px;
+// $media-xxlarge: 1900px;
+// $media-xxxlarge: 1901px;
+// $media-xxlarge-min: 2000px;
+
+// mobile
+$media-mobile-min: 576px;
+$media-mobile-max: 575.98px;
+
+// tablets
+$media-tablets-min: 768px;
+$media-tablets-max: 767.98px;
+
+// desktop
+$media-desktop-min: 992px;
+$media-desktop-max: 991.98px;
+
+// lg-desktop
+$media-lg-desktop-min: 1200px;
+$media-lg-desktop-max: 1199.98px;
+
+// ex-lg-desktop
+$media-exlg-desktop-min: 1400px;
+$media-exlg-desktop-max: 1399.98px;

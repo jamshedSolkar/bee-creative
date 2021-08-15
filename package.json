@@ -1,0 +1,26 @@
+{
+  "name": "bee-creative",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "",
+    "start": ""
+  },
+  "author": "jamshedSolkar",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "gulp": "^4.0.0",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-dart-sass": "^0.9.1",
+    "gulp-group-css-media-queries": "^1.2.2",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.4",
+    "node-sass": "^4.11.0"
+  },
+  "dependencies": {
+    "gulp-changed": "^3.2.0",
+    "sass": "^1.17.2"
+  }
+}

@@ -1,0 +1,13 @@
+// Raleway font-family
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800&display=swap');
+
+// Baubodti
+@font-face {
+  font-family: 'Baubodti';
+  src: url('../fonts/Baubodti.eot');
+  src: url('../fonts/Baubodti.eot') format('embedded-opentype'),
+       url('../fonts/Baubodti.woff2') format('woff2'),
+       url('../fonts/Baubodti.woff') format('woff'),
+       url('../fonts/Baubodti.ttf') format('truetype'),
+       url('../fonts/Baubodti.svg#Baubodti') format('svg');
+}
